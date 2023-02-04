@@ -21,4 +21,4 @@ func _process(delta):
 func _on_Area2D_area_entered(area):
 	if area.is_in_group("Enemy"):
 		area.get_parent().recieve_damage(damage)
-	queue_free()
+		queue_free()

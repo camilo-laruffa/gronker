@@ -7,7 +7,8 @@
 extents = Vector2( 24.6667, 21.3333 )
 
 [node name="Gronker" type="KinematicBody2D" groups=["Enemy"]]
-scale = Vector2( 3, 3 )
+position = Vector2( 0, -2 )
+scale = Vector2( 2, 2 )
 collision_layer = 2
 collision_mask = 5
 script = ExtResource( 2 )

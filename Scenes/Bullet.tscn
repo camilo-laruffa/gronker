@@ -13,6 +13,7 @@ script = ExtResource( 2 )
 speed = 900
 
 [node name="Sprite" type="Sprite" parent="."]
+modulate = Color( 0.992157, 1, 0, 1 )
 rotation = 1.5708
 texture = ExtResource( 1 )
 hframes = 2

@@ -16,6 +16,7 @@ func _on_Shoot_Timer_timeout():
 	canShoot = !canShoot
 
 func shoot():
+	$"Shoot Sound".play()
 	var bullet = BULLET.instance()
 	bullet.position = $"Shooting Point".global_position
 	get_parent().add_child(bullet)

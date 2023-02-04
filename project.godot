@@ -11,7 +11,13 @@ config_version=4
 [application]
 
 config/name="Gronker"
+run/main_scene="res://Scenes/Tower Defense.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1368
+window/size/height=768
 
 [gui]
 

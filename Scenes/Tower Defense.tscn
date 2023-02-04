@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/Gronker.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Turret.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/CAT.tscn" type="PackedScene" id=3]
+
+[node name="Tower Defense" type="Node2D"]
+
+[node name="Gronker" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1429, 646 )
+scale = Vector2( 2, 2 )
+
+[node name="Gronker2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1499, 646 )
+scale = Vector2( 2, 2 )
+
+[node name="Gronker3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1651, 646 )
+scale = Vector2( 2, 2 )
+
+[node name="Gronker4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1559, 646 )
+scale = Vector2( 2, 2 )
+
+[node name="Turret" parent="." instance=ExtResource( 2 )]
+position = Vector2( 537, 647 )
+scale = Vector2( 2, 2 )
+
+[node name="Turret2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 712, 647 )
+scale = Vector2( 2, 2 )
+
+[node name="Turret3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 624, 647 )
+scale = Vector2( 2, 2 )
+
+[node name="CAT" parent="." instance=ExtResource( 3 )]
+position = Vector2( 341, 649 )
+scale = Vector2( 2, 2 )
